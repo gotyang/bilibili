@@ -1,0 +1,709 @@
+#wrap #LoutiNav ul {
+  z-index: 999;
+  position: absolute;
+  top: 256px;
+  right: 100px;
+  width: 54px;
+  min-height: 517px;
+  box-sizing: border-box;
+  border: 1px solid #e7e7e7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+  padding-top: 6px; }
+  #wrap #LoutiNav ul li {
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+    cursor: pointer; }
+  #wrap #LoutiNav ul .active {
+    color: #fff;
+    background-color: #00a1d6; }
+  #wrap #LoutiNav ul li:hover {
+    color: #fff;
+    background-color: #00a1d6; }
+  #wrap #LoutiNav ul .y-goTop {
+    height: 30px;
+    border-top: 1px solid #e7e7e7; }
+  #wrap #LoutiNav ul .y-toggle {
+    height: 31px;
+    border-top: 1px solid #e7e7e7; }
+
+#wrap #LoutiNav .xd {
+  position: fixed;
+  top: 0; }
+
+#wrap #main {
+  width: 999px;
+  margin: 0 auto; }
+  #wrap #main .y-public-list {
+    width: 710px;
+    box-sizing: border-box;
+    float: left; }
+    #wrap #main .y-public-list .y-public-list-top {
+      margin-bottom: 16px;
+      overflow: hidden; }
+      #wrap #main .y-public-list .y-public-list-top .Icon {
+        line-height: 36px;
+        float: left;
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        margin-right: 6px; }
+        #wrap #main .y-public-list .y-public-list-top .Icon img {
+          width: 28px;
+          height: 26px;
+          vertical-align: middle; }
+      #wrap #main .y-public-list .y-public-list-top .name {
+        line-height: 36px;
+        float: left;
+        font-size: 20px;
+        color: #212121;
+        vertical-align: bottom;
+        margin-right: 20px; }
+      #wrap #main .y-public-list .y-public-list-top .name:hover {
+        color: #00a1d6; }
+      #wrap #main .y-public-list .y-public-list-top .public-more {
+        float: right;
+        margin-top: 5px; }
+        #wrap #main .y-public-list .y-public-list-top .public-more span {
+          display: inline-block;
+          height: 20px;
+          border: 1px solid #c0c0c0;
+          border-radius: 2px;
+          font-size: 12px;
+          color: #505050;
+          line-height: 20px;
+          text-align: center; }
+          #wrap #main .y-public-list .y-public-list-top .public-more span .iconfont {
+            font-size: 12px;
+            color: #505050; }
+          #wrap #main .y-public-list .y-public-list-top .public-more span .icon-huanyihuan {
+            margin-right: 5px; }
+        #wrap #main .y-public-list .y-public-list-top .public-more .public-chose {
+          width: 70px;
+          cursor: pointer; }
+        #wrap #main .y-public-list .y-public-list-top .public-more .publicMore {
+          width: 56px; }
+    #wrap #main .y-public-list .y-public-list-box {
+      width: 720px;
+      overflow: hidden; }
+      #wrap #main .y-public-list .y-public-list-box .public-card {
+        height: 170px;
+        width: 170px;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 20px; }
+        #wrap #main .y-public-list .y-public-list-box .public-card a {
+          color: #000;
+          display: block; }
+          #wrap #main .y-public-list .y-public-list-box .public-card a .y-public-pic {
+            height: 96px;
+            position: relative;
+            margin-bottom: 10px; }
+            #wrap #main .y-public-list .y-public-list-box .public-card a .y-public-pic img {
+              width: 100%; }
+            #wrap #main .y-public-list .y-public-list-box .public-card a .y-public-pic .userNum {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              color: #e1ded9;
+              font-size: 12px;
+              padding: 4px 8px; }
+              #wrap #main .y-public-list .y-public-list-box .public-card a .y-public-pic .userNum .icon-yonghuguanli {
+                font-size: 16px;
+                margin-right: 4px; }
+            #wrap #main .y-public-list .y-public-list-box .public-card a .y-public-pic #wjh {
+              display: none;
+              position: absolute;
+              left: 0;
+              top: 0; }
+              #wrap #main .y-public-list .y-public-list-box .public-card a .y-public-pic #wjh .videoShow {
+                width: 170px;
+                height: 96px; }
+          #wrap #main .y-public-list .y-public-list-box .public-card a .y-up {
+            overflow: hidden; }
+            #wrap #main .y-public-list .y-public-list-box .public-card a .y-up .up-text {
+              float: right;
+              width: 100%; }
+              #wrap #main .y-public-list .y-public-list-box .public-card a .y-up .up-text .name {
+                padding-right: 5px;
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 500;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical; }
+              #wrap #main .y-public-list .y-public-list-box .public-card a .y-up .up-text .tag {
+                font-size: 12px;
+                line-height: 16px;
+                color: #999;
+                margin-top: 8px;
+                overflow: hidden;
+                text-overflow: ellipsis; }
+  #wrap #main .y-rank-list {
+    width: 265px;
+    height: 400px;
+    overflow: hidden;
+    float: right; }
+    #wrap #main .y-rank-list .rank-header {
+      margin-bottom: 16px;
+      height: 36px; }
+      #wrap #main .y-rank-list .rank-header .name {
+        color: #212121;
+        font-size: 20px;
+        line-height: 28px;
+        float: left; }
+      #wrap #main .y-rank-list .rank-header .more {
+        float: right;
+        margin-top: 5px;
+        padding: 0 0 0 12px;
+        width: 58px;
+        height: 22px;
+        border: 1px solid silver;
+        border-radius: 2px;
+        color: #505050;
+        text-align: center;
+        font-size: 12px;
+        line-height: 22px;
+        transition: all .2s; }
+        #wrap #main .y-rank-list .rank-header .more .icon-changyongtubiao-xianxingdaochu-zhuanqu- {
+          font-size: 14px;
+          margin-left: 4px; }
+    #wrap #main .y-rank-list .rank-wrap {
+      margin-bottom: 18px;
+      position: relative; }
+      #wrap #main .y-rank-list .rank-wrap .number {
+        font-size: 14px;
+        color: #999;
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        line-height: 18px;
+        background: #fff;
+        border-radius: 2px;
+        margin-right: 12px;
+        float: left; }
+      #wrap #main .y-rank-list .rank-wrap .on {
+        background: #1890ff;
+        color: #fff; }
+      #wrap #main .y-rank-list .rank-wrap .preview {
+        width: 235px;
+        overflow: hidden;
+        position: relative;
+        font-size: 12px; }
+        #wrap #main .y-rank-list .rank-wrap .preview .pic {
+          float: left;
+          width: 112px;
+          height: 64px; }
+          #wrap #main .y-rank-list .rank-wrap .preview .pic .link {
+            border-radius: 2px; }
+        #wrap #main .y-rank-list .rank-wrap .preview .txt {
+          width: 111px;
+          float: left;
+          margin-left: 12px;
+          height: 64px; }
+          #wrap #main .y-rank-list .rank-wrap .preview .txt a {
+            color: #212121; }
+            #wrap #main .y-rank-list .rank-wrap .preview .txt a p {
+              font-size: 14px;
+              height: 40px;
+              line-height: 20px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              margin-bottom: 5px;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical; }
+          #wrap #main .y-rank-list .rank-wrap .preview .txt span {
+            color: #999; }
+      #wrap #main .y-rank-list .rank-wrap .link {
+        color: #212121; }
+        #wrap #main .y-rank-list .rank-wrap .link p {
+          font-size: 14px;
+          height: 20px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-bottom: 5px;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical; }
+        #wrap #main .y-rank-list .rank-wrap .link p:hover {
+          color: #1890ff; }
+  #wrap #main .y-live .live-imgBox {
+    display: block;
+    width: 100%; }
+    #wrap #main .y-live .live-imgBox img {
+      width: 999px;
+      cursor: pointer;
+      display: block; }
+  #wrap #main .y-live .y-live-liveBox {
+    margin-top: 48px;
+    overflow: hidden; }
+    #wrap #main .y-live .y-live-liveBox .y-live-list {
+      width: 710px;
+      box-sizing: border-box;
+      float: left;
+      height: 420px; }
+      #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top {
+        margin-bottom: 16px;
+        overflow: hidden; }
+        #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .LiveIcon {
+          line-height: 36px;
+          float: left;
+          width: 36px;
+          height: 36px;
+          text-align: center;
+          margin-right: 6px; }
+          #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .LiveIcon img {
+            width: 28px;
+            height: 26px; }
+        #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .name {
+          line-height: 36px;
+          float: left;
+          font-size: 20px;
+          color: #212121;
+          margin-right: 20px; }
+        #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .name:hover {
+          color: #00a1d6; }
+        #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-text {
+          float: left;
+          line-height: 36px; }
+          #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-text .online {
+            font-size: 12px; }
+          #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-text a {
+            color: #505050;
+            font-size: 12px;
+            margin-left: 25px; }
+            #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-text a img {
+              margin-right: 2px;
+              vertical-align: middle; }
+          #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-text a:hover {
+            color: #00a1d6; }
+        #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-more {
+          float: right;
+          margin-top: 5px; }
+          #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-more span {
+            display: inline-block;
+            height: 20px;
+            border: 1px solid #c0c0c0;
+            border-radius: 2px;
+            font-size: 12px;
+            color: #505050;
+            line-height: 20px;
+            text-align: center; }
+            #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-more span .iconfont {
+              font-size: 12px;
+              color: #505050; }
+            #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-more span .icon-huanyihuan {
+              margin-right: 5px; }
+          #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-more .live-chose {
+            width: 70px;
+            cursor: pointer; }
+          #wrap #main .y-live .y-live-liveBox .y-live-list .y-live-list-top .live-more .liveMore {
+            width: 56px; }
+      #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box {
+        width: 720px;
+        overflow: hidden; }
+        #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card {
+          height: 170px;
+          width: 170px;
+          float: left;
+          margin-right: 10px;
+          margin-bottom: 20px; }
+          #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a {
+            color: #000;
+            display: block; }
+            #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-pic {
+              height: 96px;
+              position: relative;
+              margin-bottom: 10px; }
+              #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-pic img {
+                width: 100%; }
+              #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-pic .userNum {
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                color: white;
+                font-size: 12px;
+                padding: 0px 8px; }
+                #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-pic .userNum .icon-yonghuguanli {
+                  font-size: 16px;
+                  margin-right: 4px; }
+              #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-pic .y-mark {
+                display: none;
+                position: absolute;
+                left: 0;
+                top: 0; }
+            #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-up {
+              overflow: hidden; }
+              #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-up img {
+                display: block;
+                float: left;
+                width: 36px;
+                height: 36px;
+                border-radius: 50%; }
+              #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-up .up-text {
+                float: right;
+                width: 128px;
+                white-space: nowrap; }
+                #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-up .up-text .name {
+                  font-size: 14px;
+                  line-height: 20px;
+                  font-weight: 500;
+                  overflow: hidden;
+                  text-overflow: ellipsis; }
+                #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-up .up-text .desc {
+                  font-size: 12px;
+                  color: #505050;
+                  line-height: 18px;
+                  margin-top: 2px;
+                  overflow: hidden;
+                  text-overflow: ellipsis; }
+                #wrap #main .y-live .y-live-liveBox .y-live-list .y-list-box .live-card a .y-up .up-text .tag {
+                  font-size: 12px;
+                  line-height: 16px;
+                  color: #999;
+                  margin-top: 8px;
+                  overflow: hidden;
+                  text-overflow: ellipsis; }
+    #wrap #main .y-live .y-live-liveBox .y-live-bannerBox {
+      width: 265px;
+      float: right; }
+      #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tab-switch {
+        height: 36px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        font-size: 12px;
+        line-height: 18px; }
+        #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tab-switch div {
+          height: 22px;
+          margin-right: 12px;
+          margin-top: 5px;
+          cursor: pointer;
+          float: left; }
+        #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tab-switch .on {
+          border-bottom: 1px solid #00a1d6;
+          color: #00a1d6; }
+      #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .liveP {
+        display: none; }
+        #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .liveP .live-rank-item {
+          margin-bottom: 16px;
+          color: #212121;
+          display: block;
+          box-sizing: border-box;
+          width: 265px;
+          height: 44px; }
+          #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .liveP .live-rank-item .rank-face {
+            box-sizing: border-box;
+            width: 198px;
+            height: 44px;
+            float: left; }
+            #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .liveP .live-rank-item .rank-face .number {
+              font-size: 14px;
+              color: #999;
+              width: 18px;
+              height: 18px;
+              text-align: center;
+              line-height: 18px;
+              background: #fff;
+              border-radius: 2px;
+              margin-right: 12px;
+              margin-top: 13px;
+              float: left; }
+            #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .liveP .live-rank-item .rank-face img {
+              float: left;
+              margin-right: 10px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%; }
+            #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .liveP .live-rank-item .rank-face .on {
+              background: #1890ff;
+              color: #fff; }
+            #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .liveP .live-rank-item .rank-face .txt {
+              margin-top: 2px;
+              float: left;
+              width: 102px;
+              margin-right: 10px; }
+              #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .liveP .live-rank-item .rank-face .txt p {
+                width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 14px;
+                font-weight: 500;
+                color: #212121; }
+              #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .liveP .live-rank-item .rank-face .txt .p2 {
+                color: #505050;
+                line-height: 18px;
+                margin-top: 2px;
+                font-size: 12px; }
+          #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .liveP .live-rank-item .count {
+            font-size: 12px;
+            color: #999;
+            margin-top: 13px;
+            float: right;
+            width: 55px;
+            height: 40px; }
+      #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .attention {
+        display: none;
+        text-align: center; }
+      #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .swiper-container {
+        width: 265px;
+        height: 252px;
+        display: none; }
+        #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .swiper-container .swiper-pagination {
+          bottom: 10px;
+          right: 10px;
+          width: 100%; }
+        #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .swiper-container .my-bullet {
+          width: 10px;
+          height: 10px;
+          padding: 2px 2px;
+          border-radius: 50%;
+          box-sizing: border-box;
+          display: inline-block;
+          background: #000;
+          opacity: .3;
+          margin: 0 5px;
+          cursor: pointer; }
+        #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .swiper-container .my-bullet:hover {
+          width: 10px;
+          height: 10px;
+          padding: 0;
+          background-color: #1890ff; }
+        #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .swiper-container .my-bullet-active {
+          border-width: 0;
+          border-color: transparent;
+          background-color: transparent;
+          background-image: url("../img/icon_slide.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transform: scale(1.8); }
+      #wrap #main .y-live .y-live-liveBox .y-live-bannerBox .tabQ .show {
+        display: block; }
+  #wrap #main .y-animation-Box {
+    overflow: hidden;
+    margin-top: 40px; }
+    #wrap #main .y-animation-Box .y-public-list-box {
+      height: 380px; }
+      #wrap #main .y-animation-Box .y-public-list-box .name {
+        height: 40px; }
+      #wrap #main .y-animation-Box .y-public-list-box img {
+        width: 170px;
+        height: 96px;
+        border-radius: 2px; }
+      #wrap #main .y-animation-Box .y-public-list-box .userNum {
+        color: white; }
+  #wrap #main .y-cartoon {
+    overflow: hidden; }
+    #wrap #main .y-cartoon .header-img {
+      display: block;
+      margin-bottom: 30px; }
+      #wrap #main .y-cartoon .header-img img {
+        width: 999px; }
+    #wrap #main .y-cartoon .cartoon-box {
+      width: 710px;
+      float: left; }
+      #wrap #main .y-cartoon .cartoon-box .head-m {
+        height: 36px;
+        line-height: 36px;
+        margin-bottom: 16px; }
+        #wrap #main .y-cartoon .cartoon-box .head-m .cartoon-type {
+          float: left;
+          overflow: hidden; }
+          #wrap #main .y-cartoon .cartoon-box .head-m .cartoon-type span {
+            float: left;
+            margin-right: 6px; }
+            #wrap #main .y-cartoon .cartoon-box .head-m .cartoon-type span img {
+              width: 28px;
+              height: 26px;
+              vertical-align: middle; }
+          #wrap #main .y-cartoon .cartoon-box .head-m .cartoon-type .name {
+            float: left;
+            vertical-align: bottom;
+            font-size: 20px;
+            margin: 0 20px 0 0; }
+          #wrap #main .y-cartoon .cartoon-box .head-m .cartoon-type .name:hover {
+            color: #00a1d6; }
+          #wrap #main .y-cartoon .cartoon-box .head-m .cartoon-type .ct-tab {
+            float: left;
+            margin-left: 4px;
+            margin-top: 3px; }
+            #wrap #main .y-cartoon .cartoon-box .head-m .cartoon-type .ct-tab .tab-switch-item {
+              float: left;
+              margin-right: 12px;
+              height: 30px;
+              font-size: 12px;
+              line-height: 30px;
+              cursor: pointer; }
+            #wrap #main .y-cartoon .cartoon-box .head-m .cartoon-type .ct-tab .on {
+              border-bottom: 1px solid #00a1d6;
+              color: #00a1d6; }
+        #wrap #main .y-cartoon .cartoon-box .head-m .moreCartoon {
+          float: right;
+          margin-top: 5px; }
+          #wrap #main .y-cartoon .cartoon-box .head-m .moreCartoon span {
+            display: inline-block;
+            height: 20px;
+            border: 1px solid #c0c0c0;
+            border-radius: 2px;
+            font-size: 12px;
+            color: #505050;
+            line-height: 20px;
+            text-align: center;
+            cursor: pointer; }
+            #wrap #main .y-cartoon .cartoon-box .head-m .moreCartoon span .iconfont {
+              font-size: 12px;
+              color: #505050; }
+            #wrap #main .y-cartoon .cartoon-box .head-m .moreCartoon span .icon-huanyihuan {
+              margin-right: 5px; }
+          #wrap #main .y-cartoon .cartoon-box .head-m .moreCartoon .live-chose {
+            width: 70px; }
+          #wrap #main .y-cartoon .cartoon-box .head-m .moreCartoon .liveMore {
+            width: 56px; }
+      #wrap #main .y-cartoon .cartoon-box .manga-list-box {
+        width: 720px;
+        overflow: hidden;
+        height: 581px; }
+        #wrap #main .y-cartoon .cartoon-box .manga-list-box .manga-card {
+          width: 170px;
+          margin-bottom: 20px;
+          float: left;
+          margin-right: 10px; }
+          #wrap #main .y-cartoon .cartoon-box .manga-list-box .manga-card img {
+            width: 170px;
+            height: 226px; }
+          #wrap #main .y-cartoon .cartoon-box .manga-list-box .manga-card .manga-title {
+            margin: 10px 0 8px;
+            color: #212121;
+            font-weight: 500;
+            font-size: 14px;
+            transition: .3s;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: left; }
+          #wrap #main .y-cartoon .cartoon-box .manga-list-box .manga-card .manga-tag {
+            color: #999;
+            font-size: 12px;
+            overflow: hidden;
+            line-height: 16px;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+    #wrap #main .y-cartoon .cartoon-rankBox {
+      float: right;
+      width: 265px; }
+      #wrap #main .y-cartoon .cartoon-rankBox .rank-header {
+        margin-bottom: 16px;
+        height: 36px; }
+        #wrap #main .y-cartoon .cartoon-rankBox .rank-header .name {
+          color: #212121;
+          vertical-align: bottom;
+          font-size: 20px;
+          line-height: 28px;
+          float: left;
+          margin-top: 5px; }
+        #wrap #main .y-cartoon .cartoon-rankBox .rank-header .tab-switch {
+          margin-left: 20px;
+          margin-top: 10px;
+          float: left; }
+          #wrap #main .y-cartoon .cartoon-rankBox .rank-header .tab-switch .tab-switch-item {
+            margin-right: 12px;
+            float: left;
+            height: 21px;
+            font-size: 12px;
+            line-height: 16px;
+            cursor: pointer; }
+          #wrap #main .y-cartoon .cartoon-rankBox .rank-header .tab-switch .on {
+            border-bottom: 1px solid #00a1d6;
+            color: #00a1d6; }
+        #wrap #main .y-cartoon .cartoon-rankBox .rank-header .more {
+          float: right;
+          margin-top: 8px;
+          padding: 0 0 0 12px;
+          width: 46px;
+          height: 22px;
+          border: 1px solid silver;
+          border-radius: 2px;
+          color: #505050;
+          text-align: center;
+          font-size: 12px;
+          line-height: 22px;
+          transition: all .2s; }
+          #wrap #main .y-cartoon .cartoon-rankBox .rank-header .more .icon-changyongtubiao-xianxingdaochu-zhuanqu- {
+            font-size: 14px;
+            margin-left: 3px; }
+      #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap {
+        height: 576px;
+        color: #505050; }
+        #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list {
+          display: none; }
+          #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item {
+            box-sizing: border-box;
+            padding: 9px 0;
+            overflow: hidden; }
+            #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item .rank-number {
+              float: left;
+              margin-right: 12px;
+              width: 18px;
+              height: 18px;
+              border-radius: 2px;
+              background: #fff;
+              color: #999;
+              text-align: center;
+              font-size: 14px;
+              line-height: 18px;
+              cursor: default; }
+            #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item .on {
+              background: #00a1d6;
+              color: #fff; }
+            #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item .other-link {
+              float: left;
+              overflow: hidden;
+              height: 20px;
+              width: 235px; }
+              #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item .other-link .title {
+                float: left; }
+              #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item .other-link .update {
+                float: right; }
+            #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item .preview {
+              overflow: hidden; }
+            #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item a {
+              overflow: hidden; }
+              #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item a img {
+                float: left;
+                width: 112px;
+                height: 149px; }
+              #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item a .preview-desc {
+                margin-left: 12px;
+                float: left; }
+              #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item a p {
+                max-width: 148px;
+                font-size: 12px; }
+              #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item a .title {
+                color: #212121;
+                font-weight: 500;
+                display: -webkit-box;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                margin-bottom: 10px;
+                text-overflow: ellipsis;
+                font-size: 14px;
+                line-height: 20px;
+                -webkit-line-clamp: 2; }
+              #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item a .title:hover {
+                color: #00a1d6; }
+              #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item a .style {
+                color: #999;
+                line-height: 18px; }
+              #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item a .update {
+                color: #999;
+                line-height: 18px; }
+          #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .manga-list .manga-rank-item:first-child {
+            padding-top: 0; }
+        #wrap #main .y-cartoon .cartoon-rankBox .manga-rank-wrap .show {
+          display: block; }

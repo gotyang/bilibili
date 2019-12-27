@@ -1,0 +1,11 @@
+接口文档
+url： b.json，
+AnimationLeaderboard：动画排行榜数据；
+animation: 动画栏左侧
+region_count：图标数字数据；
+banner：开头左侧轮播图数据;    table: 开头右侧轮播图
+live:直播区所有数据；  {recommend：正在直播；preview：为你推荐轮播图；ranking：直播排行}；
+drama:番剧一周数据   DramaList:番剧排行榜数据
+cartoon: 漫画左侧数据    cartoonRank: 排行榜数据 三组
+Videopreview:视频预览数据
+madeinchina国创数据    madeinchinaRank国创排行榜   madeinchinaBanner国创轮播图

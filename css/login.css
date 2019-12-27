@@ -1,0 +1,150 @@
+.Box .y-main {
+  width: 980px;
+  margin: 0 auto; }
+
+.Box .nav-menu {
+  height: 86px;
+  margin-bottom: 20px;
+  background: #00a0d8; }
+  .Box .nav-menu a {
+    display: block; }
+
+.Box .title-line {
+  width: 980px;
+  margin: 0 auto;
+  height: 28px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 28px;
+  text-align: center; }
+  .Box .title-line span {
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 40px;
+    background: #fff;
+    text-align: center; }
+
+.Box .loginBox .loginLeft {
+  float: left; }
+  .Box .loginBox .loginLeft .qrcode-con {
+    width: 480px;
+    height: 140px;
+    padding-top: 72px; }
+    .Box .loginBox .loginLeft .qrcode-con .qrcode-box {
+      width: 140px;
+      margin: 0 auto;
+      background: #ddd;
+      position: relative; }
+      .Box .loginBox .loginLeft .qrcode-con .qrcode-box .qrcode-tips {
+        width: 480px;
+        height: 192px;
+        z-index: 10;
+        position: absolute;
+        width: 480px;
+        height: 192px;
+        top: -50px;
+        left: 50%;
+        margin-left: -240px;
+        background: url(../img/qr-tip.png) no-repeat;
+        opacity: 0; }
+      .Box .loginBox .loginLeft .qrcode-con .qrcode-box .qrcode-img {
+        width: 140px; }
+    .Box .loginBox .loginLeft .qrcode-con .qrcode-box:hover .qrcode-tips {
+      background: url(../img/qr-tip.png) no-repeat;
+      background-size: 480px 192px;
+      background-color: #fff;
+      opacity: 1; }
+  .Box .loginBox .loginLeft .qrcode-footer {
+    width: 480px;
+    height: 155px;
+    background: url(../img/login.af9c53d.png) 0 -7px no-repeat; }
+    .Box .loginBox .loginLeft .qrcode-footer .status-txt {
+      padding-top: 20px;
+      text-align: center;
+      color: #222;
+      font-size: 18px;
+      letter-spacing: 3px;
+      margin-bottom: 5px; }
+    .Box .loginBox .loginLeft .qrcode-footer .app-link {
+      text-align: center;
+      color: #717171;
+      font-size: 14px; }
+
+.Box .loginBox .shuLine {
+  float: left;
+  border-right: 1px solid #ddd;
+  height: 300px;
+  margin-top: 28px;
+  margin-left: 10px; }
+
+.Box .loginBox .loginRight {
+  float: left;
+  padding-left: 35px;
+  width: 470px;
+  box-sizing: border-box; }
+  .Box .loginBox .loginRight ul {
+    margin-top: 50px;
+    width: 414px; }
+    .Box .loginBox .loginRight ul li {
+      height: 66px; }
+    .Box .loginBox .loginRight ul .status-box {
+      position: relative; }
+      .Box .loginBox .loginRight ul .status-box input {
+        width: 388px;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        color: #aaa;
+        font-size: 14px;
+        padding: 10px;
+        height: 18px;
+        vertical-align: middle;
+        border-radius: 4px; }
+      .Box .loginBox .loginRight ul .status-box .tips {
+        color: #f66495;
+        float: left;
+        font-size: 12px;
+        margin-top: 4px;
+        display: none; }
+    .Box .loginBox .loginRight ul .gc {
+      height: 0;
+      margin-bottom: 16px; }
+    .Box .loginBox .loginRight ul .remember {
+      margin: 10px 0;
+      color: #717171;
+      width: 410px;
+      font-size: 12px;
+      height: 16px;
+      margin: 10px 0;
+      color: #717171; }
+      .Box .loginBox .loginRight ul .remember span {
+        color: #bbb;
+        margin-left: 10px; }
+      .Box .loginBox .loginRight ul .remember .forget-password {
+        float: right;
+        color: #00a1d6; }
+      .Box .loginBox .loginRight ul .remember .not-checkout {
+        float: right;
+        margin-right: 10px;
+        color: #00a1d6; }
+    .Box .loginBox .loginRight ul .btn-box {
+      width: 414px;
+      height: 38px; }
+      .Box .loginBox .loginRight ul .btn-box .btn {
+        width: 184px;
+        height: 36px;
+        border: 1px solid #0381aa;
+        display: inline-block;
+        border-radius: 2px;
+        line-height: 38px;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer; }
+      .Box .loginBox .loginRight ul .btn-box .btn-login {
+        color: #fff;
+        background-color: #00a7de;
+        margin-right: 34px; }
+    .Box .loginBox .loginRight ul .sns {
+      width: 414px;
+      height: 21px;
+      padding: 12px 0; }
